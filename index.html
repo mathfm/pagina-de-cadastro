@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[M2] - Site de Registro</title>
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-itens">
+            <a href="#" id="registro" class="btn-card">Registrar</a>
+            <a href="#" id="mostrar-usuario" class="btn-card">Exibir Usuarios</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <section id="forms" class="card-registro">
+                <h2 class="titulo">Funcionário</h2>
+                <form class="formulario-estilo">
+                    <div class="nome-usuario">
+                        <input type="text" name="nome" id="input-nome" placeholder="Nome" required>
+                        <input type="text" name="sobrenome" id="input-sobrenome" placeholder="Sobrenome" required>
+                    </div>
+                    <input type="email" name="email" id="input-email" placeholder="Email" autocomplete="email" required>
+                    <input type="tel" name="contato" id="input-tel" placeholder="Numero para Contato" minlength="11" maxlength="15"
+                        pattern="[0-9]+" autocomplete="tel" required/>
+                    <input class="btn-forms" type="submit" value="Confirmar">
+                </form>
+            </section>
+            <section class="lista-funcionarios">
+            </section>
+        </div>
+    </main>
+
+
+    <script type="module" src="scripts/app.js"></script>
+</body>
+</html>
