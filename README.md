@@ -1,6 +1,14 @@
-# pagina-de-cadastro
+# # Mini-Projeto Pagina De Cadastro
 
-Atividade feita para aprender sobre interatividade e edição de uma pagina, no arquivo passado e possivel editar, apagar e cadastrar um usuario novo
+Nesse projeto você deve utilizar as tecnologias HTML, CSS & Javascript para criar uma página de cadastro (podendo ser um cadastro da sua preferência, como animais, alunos, etc…) o site deve permitir cadastrar, listar os cadastrados, editar um cadastro e excluir um cadastro, tudo isso usando Arrays, Class & DOM.
 
 ## 🔗 Links
-[Link do site](https://mathfm.github.io/pagina-de-cadastro/#)
+[Site de Cadastro](https://mathfm.github.io/pagina-de-cadastro/#)
+
+## Funcionalidades
+
+- Listar os dados cadastrados;
+- Cadastrar um novo dado;
+- Editar um dado cadastrado;
+- Deletar um dado cadastrado.
+
